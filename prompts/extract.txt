@@ -1,0 +1,21 @@
+I dag er det {{TODAY}}.
+
+Nedenfor er tekst kopieret fra en hel webside med en jobannonce. Teksten kan indeholde støj som menuer, cookie-bannere, footer, relaterede jobs og andet, der ikke hører til annoncen.
+
+Find selve jobannoncen og udtræk:
+- company: virksomhedens navn
+- title: stillingsbetegnelsen
+- contactPerson: navn (og evt. titel) på kontaktpersonen, hvis nævnt – ellers tom streng
+- contactEmail: kontaktpersonens eller rekrutteringens email, hvis den står i annoncen – ellers tom streng
+- location: arbejdssted, hvis nævnt – ellers tom streng
+- deadline: ansøgningsfristen som ÅÅÅÅ-MM-DD. Mangler årstallet, så brug den næste kommende dato. Skriv "løbende", hvis der ansættes løbende. Er der ingen frist, så tom streng.
+- adLanguage: annoncens sprog: "da" hvis den er på dansk, ellers "en"
+- summary: 2–3 sætninger om, hvad jobbet går ud på
+- requirements: krav og kvalifikationer som korte punkter
+- tasks: opgaver og ansvarsområder som korte punkter
+
+Brug kun information fra annoncen, og gæt ikke. Skriv summary, requirements og tasks på samme sprog som annoncen.
+
+<side>
+{{AD_TEXT}}
+</side>

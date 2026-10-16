@@ -1,0 +1,27 @@
+Lav et målrettet CV på {{LANGUAGE}} til jobbet i annoncen nedenfor, for ansøgeren beskrevet i profilen. CV'et sendes sammen med ansøgningen nedenfor, så det skal hænge sammen med den: fremhæv de samme styrker og eksempler.
+
+Regler:
+- Brug KUN oplysninger fra profilen. Opfind ALDRIG erfaring, tal, titler, arbejdsgivere, perioder, uddannelser, sprog eller kompetencer. Mangler noget, så lad feltet være tomt eller listen tom.
+- Tilpas ved at vælge, prioritere og formulere: det mest relevante for jobbet først. Mindre relevante ting må gerne forkortes eller udelades.
+- Brug annoncens egne ord (ATS-nøgleord) for kompetencer og opgaver, som profilen faktisk dækker. Fx "React" frem for "frontend-frameworks", hvis annoncen skriver React, og profilen nævner React.
+- headline: kort faglig titel på max 5 ord, gerne tæt på stillingsbetegnelsen, men kun hvis den passer til profilen.
+- profile: 2–4 korte sætninger om, hvem ansøgeren er fagligt, og hvad de kan bidrage med til netop dette job. Ingen klichéer.
+- experience: nyeste først, med titel, virksomhed og periode som i profilen (fx "2021 – nu"). 2–4 punkter for relevante job, 0–1 for andre. Hvert punkt starter med et udsagnsord og er konkret.
+- skills: 2–4 grupper (fx "Frontend", "UX og design", "Værktøjer") med max 8 kompetencer hver, mest relevante først.
+- projects: 0–3 relevante projekter fra profilen, hver med én kort sætning.
+- education: titel, sted og periode som i profilen.
+- languages: kun sprog, der står i profilen. level er en kort beskrivelse (fx "Modersmål", "Flydende"). dots er 1–5 (5 = modersmål). Står niveauet ikke i profilen, så sæt dots til 0 og level til tom.
+- interests: 2–5 korte, personlige ting fra profilen (fx hobbyer), så CV'et ikke bliver for koldt. Tom liste, hvis profilen ikke nævner nogen.
+- Skriv ikke navn, adresse eller kontaktoplysninger – de tilføjes automatisk.
+
+<annonce>
+{{JOB}}
+</annonce>
+
+<ansøgning>
+{{LETTER}}
+</ansøgning>
+
+<profil>
+{{PROFILE}}
+</profil>

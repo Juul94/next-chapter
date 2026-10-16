@@ -1,0 +1,21 @@
+Skriv en kort opfølgningsmail på {{LANGUAGE}} om en jobansøgning, ansøgeren har sendt.
+
+Regler:
+- 60–120 ord. Professionel og venlig – ingen påtrængende tone.
+- Vis ægte interesse for stillingen og virksomheden, gerne med en konkret detalje fra annoncen.
+- Henvis kort til ansøgningen uden at gentage den.
+- Spørg høfligt til processen og tidsplanen.
+- Start med "Kære [fornavn]" ("Dear [first name]" på engelsk), hvis der er en kontaktperson – ellers en neutral hilsen.
+- Opfind intet. Skriv ikke afsluttende hilsen, navn eller kontaktoplysninger – de tilføjes automatisk.
+
+Returnér:
+- subject: en kort emnelinje
+- body: mailens tekst. Adskil afsnit med en tom linje. Ingen markdown.
+
+<annonce>
+{{JOB}}
+</annonce>
+
+<ansøgning>
+{{LETTER}}
+</ansøgning>

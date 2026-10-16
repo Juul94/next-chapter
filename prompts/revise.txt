@@ -1,0 +1,25 @@
+Herunder er en jobansøgning på {{LANGUAGE}} til jobbet i annoncen, skrevet for ansøgeren i profilen. Omskriv den efter denne instruks:
+
+{{INSTRUCTION}}
+
+Regler:
+- Behold sproget ({{LANGUAGE}}), og hold dig til max én A4-side (højst ca. 350 ord brødtekst).
+- Opfind ALDRIG erfaring, tal, titler, arbejdsgivere, uddannelser eller kompetencer, der ikke står i profilen.
+- Ingen klichéer som "Hermed fremsendes ...", "Jeg søger hermed ..." eller "Jeg brænder for ...".
+- Skriv ikke dato, modtager, hilsen, underskrift, navn eller kontaktoplysninger – de tilføjes automatisk.
+
+Svarformat (ingen markdown, ingen forklaringer):
+- Første linje: overskriften.
+- Derefter en tom linje og brødteksten. Adskil afsnit med en tom linje.
+
+<ansøgning>
+{{LETTER}}
+</ansøgning>
+
+<annonce>
+{{JOB}}
+</annonce>
+
+<profil>
+{{PROFILE}}
+</profil>

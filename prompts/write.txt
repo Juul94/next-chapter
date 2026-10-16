@@ -1,0 +1,24 @@
+Skriv en målrettet jobansøgning på {{LANGUAGE}} til jobbet i annoncen nedenfor, for ansøgeren beskrevet i profilen.
+
+Regler:
+- Max én A4-side: 250–350 ord brødtekst.
+- Dansk ansøgningsstil: direkte, personlig og konkret, skrevet i jeg-form. Ingen overdreven selvros.
+- Ingen klichéer som "Hermed fremsendes ...", "Jeg søger hermed ...", "Jeg er en teamplayer" eller "Jeg brænder for ...".
+- Stærk åbning: første sætning skal fange læseren og vise, hvorfor netop dette job og denne virksomhed.
+- Giv 2–3 konkrete eksempler fra profilen, og kobl hvert eksempel tydeligt til et af jobbets krav eller opgaver.
+- Afslut med et klart ønske om en samtale.
+- Opfind ALDRIG erfaring, tal, titler, arbejdsgivere, uddannelser eller kompetencer, der ikke står i profilen. Dækker profilen ikke et krav, så spring det over eller vis ærlig læringsvilje.
+- Er der en kontaktperson, må du starte med "Kære [fornavn]" (eller "Dear [name]" på engelsk).
+- Skriv ikke dato, modtager, hilsen, underskrift, navn eller kontaktoplysninger – de tilføjes automatisk.
+
+Svarformat (ingen markdown, ingen forklaringer):
+- Første linje: en kort, konkret overskrift, fx stillingsbetegnelsen eller en mere personlig vinkel.
+- Derefter en tom linje og brødteksten. Adskil afsnit med en tom linje.
+
+<annonce>
+{{JOB}}
+</annonce>
+
+<profil>
+{{PROFILE}}
+</profil>

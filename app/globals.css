@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+/* Farver og skrifter fra DESIGN.md ("Clean"). primary-strong bruges til knapper, så hvid tekst har AA-kontrast. */
+@theme {
+  --font-sans: var(--font-roboto), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-poppins), var(--font-roboto), ui-sans-serif, sans-serif;
+  --font-mono: var(--font-inconsolata), ui-monospace, Consolas, monospace;
+
+  --color-primary: #3b82f6;
+  --color-primary-strong: #2563eb;
+  --color-primary-hover: #1d4ed8;
+  --color-hover: #f3f4f6;
+  --color-success: #16a34a;
+  --color-warning: #d97706;
+  --color-danger: #dc2626;
+  --color-ink: #111827;
+  --color-surface: #ffffff;
+}
+
+body {
+  background: var(--color-gray-50);
+}
+
+/* Mørkt tema: <html data-theme="dark">. Gråskalaen vendes, så alle gray-* klasser skifter med. */
+[data-theme="dark"] {
+  color-scheme: dark;
+  --color-surface: #111827;
+  --color-ink: #f9fafb;
+  --color-gray-50: #030712;
+  --color-gray-100: #1f2937;
+  --color-gray-200: #1f2937;
+  --color-gray-300: #374151;
+  --color-gray-500: #9ca3af;
+  --color-gray-600: #9ca3af;
+  --color-gray-700: #d1d5db;
+  --color-blue-50: #172554;
+  --color-blue-100: #0f1a3d;
+  --color-blue-700: #93c5fd;
+  --color-green-700: #4ade80;
+  --color-danger: #f87171;
+  --color-hover: #030712;
+}
+
+@layer components {
+  .page-title { @apply font-display text-[2rem] leading-tight font-semibold text-ink; }
+  .page-sub { @apply mt-2 text-sm text-gray-600; }
+  .card { @apply rounded-lg border border-gray-200 bg-surface p-6; }
+  .step { @apply flex size-6 items-center justify-center rounded-full bg-blue-50 font-mono text-xs font-medium text-blue-700; }
+  .input { @apply w-full rounded-md border border-gray-300 bg-surface px-3 py-2.5 text-base text-ink placeholder:text-gray-500 focus:border-primary focus:ring-2 focus:ring-primary/30 focus:outline-none read-only:bg-gray-50; }
+  .btn { @apply focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary inline-flex min-h-11 items-center justify-center gap-2 rounded-md bg-primary-strong px-4 text-sm font-medium text-white hover:bg-primary-hover disabled:cursor-not-allowed disabled:opacity-50; }
+  .btn-secondary { @apply focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-gray-300 bg-surface px-4 text-sm font-medium text-ink hover:bg-gray-50 disabled:cursor-not-allowed disabled:opacity-50; }
+  .icon-btn { @apply focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary inline-flex size-11 items-center justify-center rounded-md text-gray-600 hover:bg-hover hover:text-ink disabled:opacity-50; }
+  .label { @apply mb-2 block font-mono text-xs font-medium tracking-wider text-gray-600 uppercase; }
+  .hint { @apply mt-2 text-xs text-gray-500; }
+  .error { @apply text-sm text-danger; }
+}

@@ -1,0 +1,18 @@
+Forbered ansøgeren til en jobsamtale. Skriv alt på {{LANGUAGE}}.
+
+Brug annoncen, ansøgerens profil og den sendte ansøgning nedenfor, og lav:
+- questions: 8–10 sandsynlige spørgsmål fra arbejdsgiveren. Tag også de svære med, fx huller i CV'et, krav fra annoncen som profilen ikke dækker, og hvorfor ansøgeren søger netop dette job. Til hvert spørgsmål: answer, et kort forslag til svar (2–4 sætninger) baseret KUN på profilen og ansøgningen. Opfind ALDRIG erfaring, tal, titler eller kompetencer. Dækker profilen ikke spørgsmålet, så foreslå et ærligt svar, fx om læringsvilje eller beslægtet erfaring.
+- askThem: 3–5 gode spørgsmål, ansøgeren selv kan stille – konkrete for netop denne stilling og virksomhed.
+- companyNotes: 3–6 korte punkter at huske om virksomheden og stillingen – kun ud fra annoncen.
+
+<annonce>
+{{AD}}
+</annonce>
+
+<profil>
+{{PROFILE}}
+</profil>
+
+<ansøgning>
+{{LETTER}}
+</ansøgning>
